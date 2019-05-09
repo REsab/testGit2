@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>作业</title>
+
+  <style>
+    div {
+      /* border:1px solid red;  *********** */
+    }
+  </style>
+
+
+  <style>
+    .header {
+      margin: 0 auto;
+      width: 1000px;
+
+    }
+
+    .bodyer {
+
+
+      margin: 0 auto;
+      width: 1000px;
+      height: 500px;
+    }
+
+    .footer {
+      width: 1000px;
+      margin: 0 auto; // 居中  
+    }
+
+
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+
+
+      height: 33px;
+    }
+
+    .registLeftContent {
+      width: 190px;
+
+      float: left;
+    }
+
+
+
+    .registLeftContent li {
+      text-align: right;
+
+
+    }
+
+    .registRight {
+      margin-left: -40px;
+      float: left;
+
+
+
+    }
+
+    .vertityCode {
+      height: 50px;
+      line-height: 50px;
+    }
+
+
+  </style>
+
+  <style>
+    .CF:after {
+      content: " ";
+      /*both:left+right*/
+      clear: both;
+      height: 0px;
+      display: block;
+      visibility: hidden;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+
+    <img src="./static/images/header.jpg" alt="">
+  </div>
+
+  <div class="bodyer" class="CF">
+    <div class="registLeft">
+      <div class="registLeftContent">
+        <ul>
+          <li>
+            <label for="email"> 电子邮箱： </label>
+          </li>
+          <li>
+            <label for="name">会员登录名： </label>
+
+          </li>
+
+
+          <li>
+            <label for="pwd">密码： </label>
+
+          </li>
+          <li>
+            <label for="pwd2">再次输入密码： </label>
+
+          </li>
+          <li>
+            <label for="userType">会员身份：</label>
+
+          </li>
+          <li>
+            <label for="codeVerti" class="vertityCode">验证码：</label>
+
+
+          </li>
+
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <div class="registRight">
+
+        <ul>
+          <li>
+
+            <input type="email" id="email">
+
+          </li>
+          <li>
+
+            <input type="text" id="name">
+
+          </li>
+          <li>
+
+            <input type="password" id="pwd">
+
+
+          </li>
+          <li>
+
+
+
+            <input type="text" id="pwd2">
+
+
+
+
+          </li>
+          <li>
+
+
+
+
+
+            <input type="radio" name="userType" id="buyer"> <label for="buyer"> 买家 </label>
+            <input type="radio" name="userType" id="saler"> <label for="saler"> 卖家 </label>
+            <input type="radio" name="userType" id="bothBS"> <label for="bothBS"> 两者都是 </label>
+
+
+
+
+
+
+
+
+          </li>
+          <li class="vertityCode">
+
+
+
+            <input type="text" name="codeVerti" id="codeVerti"><img src="./static/images/verycode.gif" alt="">
+            <a href=""> 看不清楚？换一张 </a>
+
+          </li>
+          <li>
+
+
+
+
+
+
+
+          </li>
+          <li>
+
+
+            <img src="./static/images/btn_reg.gif" alt="">
+            <br>
+
+          </li>
+          <br>
+          <li>
+
+            <textarea name="" id="" cols="60" rows="10" disabled>
+            欢迎阅读阿里巴巴公司（阿里巴巴）服务条款协议(下称"本协议")，您应当在使用服务之前认真阅读本协议全部内容，且对本协议中加粗字体显示的内容，阿里巴巴督促您应重点阅读。本协议阐述之条款和条件适用于您使用阿里巴巴中文网站（所涉域名为：Alibaba.com.cn、alibaba.cn、1688.com，下同），所提供的在全球企业间(B-TO-B)电子市场(e-market)中进行贸易和交流的各种工具和服务(下称"服务")。
+          
+          
+          
+          </textarea>
+
+
+
+          </li>
+
+        </ul>
+
+
+
+        <br>
+
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="footer">
+    
+    
+      <img src="./static/images/footer.jpg" alt="">
+    
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../content/reset.css">
+  <style>
+    .container {
+      width: 800px;
+      height: 600px;
+      border: 1px solid red;
+      margin: 0px auto;
+    }
+
+    .header {
+      height: 50px;
+      background: #6699CC;
+    }
+
+    .content {
+      height: 500px;
+      background: #000;
+    }
+
+
+    /******------子类浮动------***************/
+    .content>div {
+      float: left;
+    }
+
+    .c-left {
+      width: 100px;
+      height: 100%;
+      background: rgb(102, 104, 204);
+    }
+
+    .c-center {
+      width: 600px;
+      height: 100%;
+      background: rgb(102, 204, 133);
+    }
+
+    .c-right {
+      width: 100px;
+      height: 100%;
+      background: rgb(165, 204, 102);
+    }
+
+
+
+    .footer {
+      height: 50px;
+      background: #FF9966;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      头部
+    </div>
+    <div class="content">
+      <div class="c-left">左边菜单
+        <div></div>
+      </div>
+      <div class="c-center">主体内容</div>
+      <div class="c-right">右边菜单</div>
+    </div>
+    <div class="footer">
+      尾部
+    </div>
+  </div>
+
+</body>
+
+</html>
